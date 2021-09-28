@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,900;1,200;1,900&family=Permanent+Marker&family=Raleway:ital,wght@0,100;0,500;1,100;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200;400&display=swap');
+
+
+
+.bg-white-dark{
+    color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.bg-blue-dark {
+    background-color: rgb(66, 73, 168);
+}
+/*Imagen de Fondo*/
+.parallax{
+        
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),  rgba(117, 213, 236, 0.5)), url("../Imagenes birds/Fondo.jpg");
+        
+        height:85vh;
+
+        background-attachment: fixed;
+        background-position: 100% 35%;
+        
+        background-size: cover;
+        animation: expansion 5s infinite;
+}
+        
+    
+
+    
+ 
+
+/*Titulo*/
+
+
+
+header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family:'Permanent Marker';
+        font-size: 1.8rem;
+        padding: 20px 0px;
+        transition: all 10s;
+        margin-top: 0;
+        
+            
+        
+
+    }
+
+    section h2, button {
+        font-weight: 900;
+        font-size: 2.2rem;}
+
+
+
+h1 {
+    animation: expansion-h1 5s infinite;
+}
+/*Menu*/
+
+nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        margin: 0;
+        background-color: #31fdef;
+        padding: 8px 40px;
+        transition: all 5s;
+        
+        
+    
+
+}
+        
+
+nav ul li:hover {
+    background-color: #44a6be;
+}
+   
+    
+
+nav ul li a {
+        text-decoration: none;
+        padding: 10px 20px;
+        font-family: 'Gluten';
+        font-weight: 500;
+        color:black;
+        font-weight: 500;
+}
+
+
+section h2 {
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Gluten';
+    }
+
+h2 {
+       display: flex;
+       justify-content: space-around;
+       font-family: 'Gluten';
+    }
+
+
+      
+
+/*Cuerpo*/
+
+body{
+       background-color: #b7d0ff;
+    
+     }
+
+
+section p {
+       font-family:'Montserrat';
+       color: white;
+     }
+
+
+
+/*Imagenes de Aves*/
+
+img  {
+    border-radius: 30% 30%;
+    padding: 0px 10px;
+    
+    
+}
+
+
+
+/*Tabla*/
+
+table {
+    display: flex;
+    justify-content: center;
+    font-family: 'montserrat';
+}
+
+tbody, td {
+    border: 2px solid rgb(28, 28, 102);
+}
+
+
+
+
+/*Formulario*/
+
+form {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gluten';
+}
+
+textarea {
+
+background: transparent;
+}
+
+input {
+    background: transparent;
+    border: 0px;
+    font-family: 'Gluten';
+}
+
+section#contactame form input,
+section#contactame form textarea {
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+ 
+section#contactame form button {
+    cursor: pointer;
+    border: none;
+    background-color: #2B3784;
+    padding: 15px 30px;
+    transition: all 300ms;
+    font-size: 1.15rem;
+    
+        
+    
+    
+}
+
+
+section#contactame form button:hover {
+    background: #c04949;
+}
+
+
+/*Boton*/
+a#btn-floating {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(13, 242, 250);
+    border: none;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: rgb(34, 224, 16);
+    padding: 20px 20px;
+    
+        background:rgb(115, 209, 115);
+        animation:myfirst 5s infinite; 
+        -moz-animation:myfirst 5s infinite; 
+        -webkit-animation:myfirst 5s infinite; 
+        -o-animation:myfirst 5s infinite; 
+        
+    }
+    
+    @keyframes myfirst
+    {
+        0%   {background:rgb(13, 242, 250);}
+        25%  {background:rgb(0, 132, 255);}
+        50%  {background:rgb(66, 73, 168);}
+        70% {background:rgb(37, 47, 194); }
+        100% {background:rgb(13, 242, 250); }
+
+
+        
+    }
+    
+    
+    
+    @-moz-keyframes myfirst /* Firefox */
+    {
+        0%   {background:rgb(13, 242, 250);}
+        25%  {background:rgb(0, 132, 255);}
+        50%  {background:rgb(66, 73, 168);}
+        100% {background:rgb(37, 47, 194); }
+        
+    }
+    
+    @-webkit-keyframes myfirst /* Safari and Chrome */
+    {
+        0%   {background:rgb(13, 242, 250);}
+        25%  {background:rgb(0, 132, 255);}
+        50%  {background:rgb(66, 73, 168);}
+        100% {background:rgb(37, 47, 194); }
+        
+    }
+    
+    @-o-keyframes myfirst 
+        {
+            0%   {background:rgb(13, 242, 250);}
+            25%  {background:rgb(0, 132, 255);}
+            50%  {background:rgb(66, 73, 168);}
+            100% {background:rgb(37, 47, 194); }
+            
+        }
+
+
+a {
+    text-decoration: none;
+ 
+}
+
+
+
+
+/*Aves*/ 
+
+
+
+/*Emú*/
+section#emu {
+    height: 50%;
+}
+section#emu img {
+    transition: all 1s;
+    
+    width: 350px ;
+    height: 300px;
+}
+
+
+
+section#emu img:hover {
+    border-radius:50%;
+-webkit-border-radius:50%;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+transform: scale3d(1.5, 1.5, 1.5) rotateY( 180deg) translateY(50px);
+}
+
+
+section#emu div.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Avestruz*/
+
+section#avestruz div.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+section#avestruz img {
+    transition: all 1s;
+    
+    width: 350px ;
+    height: 300px;
+}
+
+section#avestruz img:hover {
+    border-radius:50%;
+-webkit-border-radius:50%;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+
+
+
+/*Casuario*/
+section#casuario div.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+section#casuario img {
+    transition: all 1s;
+    
+    width: 350px ;
+    height: 300px;
+}
+
+
+section#casuario img:hover {
+    border-radius:50%;
+-webkit-border-radius:50%;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+     
+
+
+/*Ñandu*/
+section#nandu {
+    height: 50%;
+}
+
+section#nandu div.row {
+    display: flex;
+    justify-content: center;
+}
+
+section#nandu img {
+    transition: all 1s;
+    
+    width: 350px ;
+    height: 300px;
+}
+
+
+section#nandu img:hover {
+    border-radius:50%;
+-webkit-border-radius:50%;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+transform: scale3d(1.5, 1.5, 1.5) rotateY( 180deg) translateY(50px);
+}
+
+
+
+
+/*Kakapo*/
+
+section#kakapo div.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+section#kakapo img {
+    transition: all 1s;
+    
+    width: 350px ;
+    height: 300px;
+}
+
+section#kakapo img:hover {
+    border-radius:50%;
+-webkit-border-radius:50%;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+
+}
+
+
+
+
+/*Fichas Tecnicas*/
+section#fichas-tecnicas {
+    height: 50%;
+}
+
+
+
+
+
+/*Animaciones*/
+
+p {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+
+
+  /*Pie de Pagina*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration-style: none;
+}
+
+footer  a, p{
+    font-family:'Gluten';
+}
+
+
+h4, a {
+    font-family: 'Gluten';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a { 
+    padding: 20px;
+}
+
+ 
+
+
+
+
+@keyframes expansion {
+    from {
+        background-position-y: 35%;
+    }
+    to {
+        background-position-y: 45%;
+    }
+}
+
+@keyframes expansion-h1 {
+    from {
+        font-size: 2em;
+    }
+    to {
+        font-size: 5rem;
+    }
+}
